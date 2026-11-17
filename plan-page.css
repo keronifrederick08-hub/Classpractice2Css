@@ -1,0 +1,82 @@
+/* Body */
+body {
+    font-family: Lato, sans-serif;
+    background: url("plan-page.jpg") center center / cover no-repeat;
+    font-size: 16px;
+    width: 1180px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+/* Section */
+section {
+    text-align: center;
+}
+
+/* Pricing cards */
+article {
+    background: #262626;
+    display: inline-block;
+    width: 260px;
+    padding: 20px;
+    margin: 80px 20px 0 20px;
+    border: 5px solid #424242;
+    color: #a1a1a1;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* Article headings */
+article h1 {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+/* Price paragraphs */
+p.price {
+    font-size: 3em;
+    font-weight: bold;
+    color: #27dcc4;
+}
+
+/* Unordered list */
+ul {
+    padding: 0;
+}
+
+/* Buttons */
+button {
+    background: #27dcc4;
+    color: #FFF;
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: none;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #ACACAC;
+}
+
+/* List items */
+li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+/* Keep the cards fitting on smaller screens */
+@media (max-width: 1220px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    article {
+        box-sizing: border-box;
+        width: calc(100% - 30px);
+        margin: 30px 10px 0;
+    }
+}
